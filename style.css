@@ -1,144 +1,138 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environment Day</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6ffe6;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 2em;
+        }
+        .importance, .recycling, .save-trees {
+            margin-bottom: 2em;
+        }
+        .importance img, .recycling img, .save-trees img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 0 auto 1em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>World Environment Day</h1>
+        <p>Join us in making the world a greener place</p>
+        <p>made by Ayaan hasina </p>
+    </header>
+    <nav>
+        <a href="#importance">Importance of Environment</a>
+        <a href="#recycling">Recycling</a>
+        <a href="#save-trees">Save Trees</a>
+    </nav>
+    <section>
+        <div id="importance" class="importance">
+            <h2>Importance of the Environment</h2>
+            <img src="https://jntukexams.net/wp-content/uploads/2024/05/World-Environment-Day.webp">
+            <p>The environment is our life support system. It provides us with essential resources such as clean air, water, and food, which are fundamental for our survival. The natural environment includes diverse ecosystems, from forests and oceans to deserts and wetlands, each playing a crucial role in maintaining ecological balance. Biodiversity within these ecosystems is essential for the stability and health of our planet.</p>
+            <p>One of the primary benefits of a healthy environment is clean air. Trees and plants absorb carbon dioxide and release oxygen through the process of photosynthesis. This not only helps mitigate climate change by reducing greenhouse gases but also provides us with the oxygen we need to breathe. Without a healthy environment, air pollution can increase, leading to respiratory problems and other health issues.</p>
+            <p>Water is another critical resource provided by our environment. Freshwater ecosystems, such as rivers, lakes, and aquifers, supply us with the water needed for drinking, agriculture, and sanitation. Protecting these water sources is vital, as water scarcity can lead to conflicts, displacement, and severe impacts on human health and agriculture. Pollution from industrial activities, agricultural runoff, and improper waste disposal can contaminate water sources, making it imperative to protect and maintain our natural water systems.</p>
+            <p>The environment also supports agriculture, which is the backbone of food security. Healthy soils, pollinators like bees, and favorable climate conditions are essential for growing crops and raising livestock. Sustainable agricultural practices that protect and nurture the environment are crucial for ensuring long-term food production and food security for the global population.</p>
+            <p>Beyond the tangible resources, the environment contributes to our mental and physical well-being. Nature provides spaces for recreation, relaxation, and spiritual reflection. Spending time in nature has been shown to reduce stress, improve mood, and enhance overall well-being. Parks, forests, and natural reserves offer opportunities for outdoor activities such as hiking, camping, and bird-watching, which promote a healthy and active lifestyle.</p>
+        </div>
+        <div id="recycling" class="recycling">
+            <h2>Importance of Recycling</h2>
+            
+            <p>Recycling is a critical component of waste management that helps reduce the negative impact of waste on the environment. By converting waste materials into new products, recycling conserves natural resources, saves energy, and reduces greenhouse gas emissions. It also helps decrease the amount of waste sent to landfills and incinerators, which can be harmful to the environment and human health.</p>
+            <p>One of the primary benefits of recycling is the conservation of natural resources. Many products, such as paper, plastic, glass, and metals, can be recycled and made into new items, reducing the need to extract and process raw materials. For example, recycling paper reduces the need for logging, preserving forests and the biodiversity they support. Recycling metals like aluminum and steel reduces the need for mining, which can have devastating effects on ecosystems and local communities.</p>
+            <p>Energy savings is another significant advantage of recycling. Manufacturing products from recycled materials often requires less energy than producing them from virgin materials. For instance, recycling aluminum saves up to 95% of the energy needed to produce new aluminum from bauxite ore. This energy savings translates to reduced greenhouse gas emissions, helping to combat climate change.</p>
+            <p>Recycling also helps reduce pollution. When waste is sent to landfills, it can release harmful chemicals and greenhouse gases into the environment. Landfills can produce methane, a potent greenhouse gas that contributes to global warming. Incinerating waste can release toxic pollutants into the air, which can harm human health and the environment. By recycling, we can divert waste from landfills and incinerators, reducing pollution and its associated impacts.</p>
+            <p>Moreover, recycling creates economic opportunities and jobs. The recycling industry generates employment in the collection, processing, and manufacturing of recycled materials. By supporting recycling programs and initiatives, we can contribute to economic growth and job creation in our communities.</p>
+        </div>
+        <div id="save-trees" class="save-trees">
+            <h2>Importance of Saving Trees</h2>
+            
+            <p>Trees are vital to the health of our planet and the well-being of all living organisms. They provide numerous environmental, social, and economic benefits that make them essential to our ecosystems and communities. Saving trees and protecting forests are critical for maintaining the balance of nature and ensuring a sustainable future.</p>
+            <p>One of the most important roles of trees is their ability to absorb carbon dioxide and release oxygen. Through the process of photosynthesis, trees take in carbon dioxide from the atmosphere and convert it into oxygen, which is essential for life. This process helps mitigate climate change by reducing the concentration of greenhouse gases in the atmosphere. Forests act as carbon sinks, storing large amounts of carbon and helping to regulate the global climate.</p>
+            <p>Trees also play a crucial role in maintaining biodiversity. Forests provide habitat and shelter for a wide variety of plant and animal species. Many species depend on trees for food, nesting, and protection. Protecting trees and forests helps preserve biodiversity, which is essential for the resilience and stability of ecosystems. Biodiversity ensures that ecosystems can recover from disturbances and adapt to changes, providing vital ecosystem services such as pollination, pest control, and nutrient cycling.</p>
+            <p>In addition to their ecological benefits, trees contribute to human well-being. Urban trees and green spaces improve air quality by filtering pollutants and providing shade, which helps reduce temperatures in cities. This cooling effect can mitigate the urban heat island effect, where cities become significantly warmer than surrounding rural areas. Trees also enhance the aesthetic value of neighborhoods, providing beauty and recreational opportunities for residents.</p>
+            <p>Economically, trees and forests provide valuable resources and services. Forests are a source of timber, non-timber forest products, and medicinal plants. Sustainable forestry practices ensure that these resources are available for future generations. Additionally, forests support tourism and recreation industries, contributing to local and national economies.</p>
+            <p>Deforestation, however, poses a significant threat to trees and the benefits they provide. Clearing forests for agriculture, logging, and urban development leads to habitat loss, climate change, and reduced biodiversity. To address these challenges, it is essential to implement policies and practices that promote reforestation, sustainable land use, and the conservation of existing forests. Individuals can also contribute by planting trees, supporting conservation organizations, and reducing their carbon footprint.</p>
 
-body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 30px;
-  color: #777;
-  background: #4CAF50;
-}
 
-.container {
-  max-width: 400px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-}
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
-  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
-}
 
-#contact {
-  background: #F9F9F9;
-  padding: 25px;
-  margin: 150px 0;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-
-#contact h3 {
-  display: block;
-  font-size: 30px;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-#contact h4 {
-  margin: 5px 0 15px;
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-}
-
-fieldset {
-  border: medium none !important;
-  margin: 0 0 10px;
-  min-width: 100%;
-  padding: 0;
-  width: 100%;
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea {
-  width: 100%;
-  border: 1px solid #ccc;
-  background: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-}
-
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
-#contact textarea:hover {
-  -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
-  transition: border-color 0.3s ease-in-out;
-  border: 1px solid #aaa;
-}
-
-#contact textarea {
-  height: 100px;
-  max-width: 100%;
-  resize: none;
-}
-
-#contact button[type="submit"] {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: #4CAF50;
-  color: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-  font-size: 15px;
-}
-
-#contact button[type="submit"]:hover {
-  background: #43A047;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
-}
-
-#contact button[type="submit"]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-.copyright {
-  text-align: center;
-}
-
-#contact input:focus,
-#contact textarea:focus {
-  outline: 0;
-  border: 1px solid #aaa;
-}
-
-::-webkit-input-placeholder {
-  color: #888;
-}
-
-:-moz-placeholder {
-  color: #888;
-}
-
-::-moz-placeholder {
-  color: #888;
-}
-
-:-ms-input-placeholder {
-  color: #888;
-}
+            <div class="container" id="contact">
+    <div class="card">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! If you have any questions, suggestions, or need support, please reach out to us:</p>
+       
+    </div>
+                 <form action="https://formsubmit.co/a855debacafd02c81e16a4938eaf22fb " method="POST" >
+                    
+            <label for="name">Name:</label><br>
+            <input type="name" id="name" name="name    required"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email required"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                  <br> <br>    <input type="submit" value="Submit">
+            
+        </form>
+                <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                
+        </div>
+    </section>
+                    <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+    <footer>
+        <p>&copy; 2024 Environment Day Initiative. All rights reserved. made by Ayaan hasina</p>
+    </footer>
+</body>
+</html>
